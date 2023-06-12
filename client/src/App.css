@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #f9f9f9;
+}
+
+.app{
+  margin:0 auto;
+  width: 80%;
+  max-width: 1600px;
+  position: relative;
+  height:100vh
+}
+
+
+
+/* MessageScroll */
+
+.bottomBar{
+  display:flex;
+  justify-content: center;
+  width:100%;
+
+}
+
+.refresh{
+  border: 5px #ebe6e6 solid;
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  border-top: 5px #979797 solid;
+  animation: refreshAnimate 0.5s linear infinite
+}
+
+@keyframes refreshAnimate{
+  0%{
+    transform:rotate(0deg)
+  }
+  100%{
+    transform:rotate(360deg)
+  }
+}

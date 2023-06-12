@@ -1,0 +1,51 @@
+
+
+.Allcomments{
+    margin: 40px 0px;
+}
+
+.comment_Container{
+    display: flex;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+.comment_actions > *{
+    display:inline-block;
+    margin: 10px 10px 0px 0px;
+}
+
+.nestedReply,.replyBtn{
+    cursor: pointer;
+    margin-top: 8px;
+    padding: 4px;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.nestedReply:hover,.replyBtn:hover{
+    background-color: #83b4d1;
+}
+
+.fa-thumbs-up,.fa-thumbs-down{
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.message{
+    font-size: 13px;
+}
+
+.username{
+    font-size: 15px;
+}
+
+.fa-circle-user{
+    font-size: 20px;
+}
+
+.comment_actions > p{
+    font-size: 13px;
+}

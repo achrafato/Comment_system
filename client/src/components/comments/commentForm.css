@@ -1,0 +1,41 @@
+
+
+.form_Comment{
+    margin: 20px 0px !important;
+    display: block !important;
+}
+
+.form_Comment input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px lightgray solid;
+}
+
+.buttons{
+    margin: 20px 0;
+}
+
+.buttons button{
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:nth-child(1){
+    background-color: #0878f8
+}
+.buttons button:nth-child(2){
+    background-color: #464646;
+    margin-left: 10px;
+}
+
+.buttons button:disabled{
+    background-color: #bbbbbbba
+}
+
